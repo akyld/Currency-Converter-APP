@@ -37,6 +37,7 @@ body {
 .app-title{
     font-size: 1.6em;
     margin-top: -0.5em;
+    margin-bottom: 0.5em;
 }
 
 label{
