@@ -19,7 +19,7 @@
         </div>
         <div class="input-details">
             <label for="input">Amount:</label>
-            <input id="amount" type="number" value="100">
+            <input id="amount" type="number" value="1" min="0" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))">
         </div>
         <div class="dropdowns">
             <select id="from-currency-select"></select>
